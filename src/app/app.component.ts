@@ -8,5 +8,7 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
 })
 export class App {
+  public nombreApp = 'Dev Themes';
+
   protected readonly title = signal('ioc-angular-galeria-temas-dev-yasir-elrahali');
 }
